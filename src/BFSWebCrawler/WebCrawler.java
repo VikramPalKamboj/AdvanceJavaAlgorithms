@@ -20,6 +20,8 @@ public class WebCrawler {
 		this.discoveredWebSiteList=new ArrayList<>();
 	}
 	
+	
+	
 	public void discoverWeb(String root){
 		this.queue.add(root);
 		this.discoveredWebSiteList.add(root);
@@ -46,6 +48,8 @@ public class WebCrawler {
 		}
 	}
 
+	
+	
 	private String readURL(String v) {
 		String rawHTML="";
 		try {
@@ -63,4 +67,6 @@ public class WebCrawler {
 		}
 		return rawHTML;
 	}
+	
+	
 }

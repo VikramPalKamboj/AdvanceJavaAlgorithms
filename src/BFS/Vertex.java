@@ -8,7 +8,6 @@ public class Vertex {
 	private int data;
 	private boolean visited;
 	private List<Vertex> neighourList;
-	
 	public Vertex(int data){
 		this.data=data;
 		this.neighourList=new ArrayList<>();
